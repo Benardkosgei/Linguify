@@ -2,4 +2,10 @@ export {default as Home} from './HomeScreen';
 export {default as Dashboard} from './DashboardScreen';
 export {default as DashboardTwo} from './DashboardTwo';
 export {default as Content} from './Content';
-export {default as about} from './History'
+export {default as About} from './History';
+export {default as FirebaseTestScreen} from './FirebaseTest/FirebaseTestScreen';
+export {default as ContentManager} from './ContentManager/ContentManager';
+export {default as KiswahiliDashboard} from './KiswahiliDashboard';
+export {default as KiswahiliContent} from './KiswahiliContent';
+export {default as LuhyaDashboard} from './LuhyaDashboard';
+export {default as LuhyaContent} from './LuhyaContent';

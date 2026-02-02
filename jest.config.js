@@ -1,7 +1,8 @@
 module.exports = {
   preset: 'react-native',
   transformIgnorePatterns: [
-    'node_modules/(?!react-native-splash-screen)/'
+    'node_modules/(?!(react-native|@react-native|react-native-splash-screen|react-native-vector-icons|@react-native-firebase)/)'
   ],
-  setupFilesAfterEnv: ['./jest.setup.js']
+  setupFilesAfterEnv: ['./jest.setup.js'],
+  moduleFileExtensions: ['ts', 'tsx', 'js', 'jsx', 'json', 'node'],
 };

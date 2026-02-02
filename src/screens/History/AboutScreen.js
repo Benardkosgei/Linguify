@@ -1,6 +1,6 @@
 import React from 'react';
 import { ScrollView, StyleSheet } from 'react-native';
-import { Appbar, Card, Paragraph, Title } from 'react-native-paper';
+import { Card, Paragraph, Title } from 'react-native-paper';
 
 const AboutScreen = () => {
     return (
